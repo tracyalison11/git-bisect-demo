@@ -1,6 +1,19 @@
-html {
+html, body {
   background-color: #FFB561;
   font-family: 'Roboto', sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+.content {
+  padding: 20px;
+  min-height: 100%;
+  margin: 0 auto -50px;
+}
+
+.footer,
+.push {
+  height: 50px;
 }
 
 h1 {
@@ -17,4 +30,11 @@ img {
   height: 15em;
   width: 15em;
   display: inline-block;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  height: 50px;
+  margin-top: -50px;
 }
